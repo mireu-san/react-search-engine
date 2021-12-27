@@ -11,18 +11,6 @@ function Sidebar() {
                     rel="noreferrer">
                     Marimite
                 </a>
-                <a 
-                    href="#" 
-                    target="_balnk" 
-                    rel="noreferrer">
-                    Little witch academia
-                </a>
-                <a 
-                    href="#" 
-                    target="_balnk" 
-                    rel="noreferrer">
-                    Your name
-                </a>
             </nav>
         </aside>
     )
