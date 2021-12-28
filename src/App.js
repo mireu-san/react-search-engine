@@ -36,7 +36,7 @@ function App() {
 	useEffect(() => {
 		GetTopAnime();
 
-		console.log("Top Anime");
+		// console.log("Top Anime");
 
 	}, []);
 
@@ -50,6 +50,7 @@ function App() {
 					topAnime={topAnime} />
 				<MainContent
 					HandleSearch={HandleSearch}
+					search={search}
 					SetSearch={SetSearch}
 					animeList={animeList} />
 			</div>
